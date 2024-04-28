@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "rss": "https://news.lsmp.site/category/noticias/feed/",
   "discord": {
     "clientId": "1231317013423722530",
@@ -8,11 +8,11 @@
   },
   "servers": [
     {
-      "id": "LurkaryaALPHA-1.20.5",
-      "name": "LurkaryaALPHA (Minecraft 1.20.5)",
+      "id": "LurkaryaBETA-1.20.5",
+      "name": "LurkaryaBETA (Minecraft 1.20.5)",
       "description": "Lurkarya corriendo en Minecraft 1.20.5 (Con Fabric v0.15.10)",
       "icon": "https://resources.lsmp.site/alpha-icon.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "jugar.lsmp.site:25565",
       "minecraftVersion": "1.20.5",
       "discord": {
@@ -20,7 +20,7 @@
         "largeImageText": "Probando Lurkarya 1.20.5",
         "largeImageKey": "a"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -121,32 +121,31 @@
           "type": "FabricMod",
           "artifact": {
             "size": 48606,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/antighost-1.20.4-fabric0.91.2-1.1.5.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/antighost-1.20.4-fabric0.91.2-1.1.5.jar",
             "MD5": "798a4302bb931c873fd0a548dc1efdfc"
           }
         },
         {
-          "id": "me.shedaniel.autoconfig.example:cloth-config:14.0.125@jar",
+          "id": "me.shedaniel.autoconfig.example:cloth-config:14.0.126@jar",
           "name": "Cloth Config v14",
           "type": "FabricMod",
           "artifact": {
-            "size": 1144436,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/cloth-config-14.0.125-fabric.jar",
-            "MD5": "9c96760d9a7208d77cc23650c05bf6c3"
+            "size": 1144434,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/cloth-config-14.0.126-fabric.jar",
+            "MD5": "c7bec328b262e26e642dd0b2cd699050"
           }
         },
         {
-          "id": "com.tom:cpm:0.6.16c@jar",
+          "id": "com.tom:cpm:0.6.16e@jar",
           "name": "Customizable Player Models",
           "type": "FabricMod",
           "artifact": {
-            "size": 2601732,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/optionaloff/CustomPlayerModels-Fabric-1.20.5-0.6.16c.jar",
-            "MD5": "88fdbfb9a56bbcd0153dbeb25acab9a2"
+            "size": 2603929,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionalon/CustomPlayerModels-Fabric-1.20.5-0.6.16e.jar",
+            "MD5": "3256e305fbf87747a7caf6cb625d09d8"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -155,8 +154,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 171971,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/CustomSkinLoader_Fabric-14.19.1.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionalon/CustomSkinLoader_Fabric-14.19.1.jar",
             "MD5": "1b2dcd6dd16769b295cab31feb0630e4"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -165,7 +167,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 94305,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/dynamic-fps-3.4.3+minecraft-1.20.5-fabric.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/dynamic-fps-3.4.3+minecraft-1.20.5-fabric.jar",
             "MD5": "45c4bb7b0db05d8261f968a980b419d0"
           }
         },
@@ -175,7 +177,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 383682,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/entity_model_features_fabric_1.20.5-2.0.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/entity_model_features_fabric_1.20.5-2.0.jar",
             "MD5": "3b00ba904eaf0cca8b8ec7f71efc0b5d"
           }
         },
@@ -185,7 +187,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 529377,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/entity_texture_features_fabric_1.20.5-6.0.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/entity_texture_features_fabric_1.20.5-6.0.jar",
             "MD5": "12e3d31c5942017155fafef3c61eaf0e"
           }
         },
@@ -195,32 +197,31 @@
           "type": "FabricMod",
           "artifact": {
             "size": 63480,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/entityculling-fabric-1.6.4-mc1.20.5.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/entityculling-fabric-1.6.4-mc1.20.5.jar",
             "MD5": "ee3b6b3b3bfaaf126b338b16ee184bd2"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.97.6+1.20.5@jar",
+          "id": "generated.fabricmod:fabric-api:0.97.7+1.20.5@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2201918,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/fabric-api-0.97.6+1.20.5.jar",
-            "MD5": "e12aab128cded2ff880ead2fe5449dce"
+            "size": 2201985,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/fabric-api-0.97.7+1.20.5.jar",
+            "MD5": "26a25bebc9f8c0c155ffa586a783c55c"
           }
         },
         {
-          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
+          "id": "generated.fabricmod:ferritecore:6.1.0@jar",
           "name": "FerriteCore",
           "type": "FabricMod",
           "artifact": {
-            "size": 125100,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/optionaloff/ferritecore-6.0.3-fabric.jar",
-            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
+            "size": 103302,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionalon/ferritecore-6.1.0-GH82-fabric.jar",
+            "MD5": "0bcb8f30591b0d1610c6906cec7225e3"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -229,7 +230,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 104805,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
             "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
           }
         },
@@ -239,7 +240,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2679411,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/iris-1.7.0+mc1.20.5.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/iris-1.7.0+mc1.20.5.jar",
             "MD5": "dfd77f301a6a2fe18804fc76f20580ba"
           }
         },
@@ -249,7 +250,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 568669,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/lambdynamiclights-2.3.4+1.20.4.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/lambdynamiclights-2.3.4+1.20.4.jar",
             "MD5": "3c849e6337ff7c850762c6cc27f607ab"
           }
         },
@@ -259,22 +260,21 @@
           "type": "FabricMod",
           "artifact": {
             "size": 682195,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/lithium-fabric-mc1.20.5-0.12.1.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/lithium-fabric-mc1.20.5-0.12.1.jar",
             "MD5": "6d0330853b7181b0a5f1903b14e3335e"
           }
         },
         {
-          "id": "fi.dy.masa:malilib:0.18.1@jar",
+          "id": "fi.dy.masa:malilib:0.18.999-sakura.1@jar",
           "name": "MaLiLib",
           "type": "FabricMod",
           "artifact": {
-            "size": 746317,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/optionaloff/malilib-fabric-1.20.4-0.18.1.jar",
-            "MD5": "354961f0e8b9ded90b92640b9452ef88"
+            "size": 786948,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionalon/malilib.jar",
+            "MD5": "0b9d498758d728dc02f7ae6bc0f6f50e"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -283,7 +283,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 49334,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
             "MD5": "a8461f89d267441752c95beb5448e940"
           }
         },
@@ -293,18 +293,18 @@
           "type": "FabricMod",
           "artifact": {
             "size": 51262,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/midnightlib-fabric-1.5.3.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/midnightlib-fabric-1.5.3.jar",
             "MD5": "f6c56de96be04274ea52ad42f117821b"
           }
         },
         {
-          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
+          "id": "ca.fxco:moreculling:0.25.0@jar",
           "name": "More Culling",
           "type": "FabricMod",
           "artifact": {
-            "size": 272851,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
-            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
+            "size": 256188,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/moreculling-1.20.5-0.25.0.jar",
+            "MD5": "b82ddbcd1873ab4fa183fc3cb1a01122"
           }
         },
         {
@@ -312,13 +312,12 @@
           "name": "Nvidium",
           "type": "FabricMod",
           "artifact": {
-            "size": 164283,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/optionaloff/nvidium-0.2.6-beta.jar",
-            "MD5": "6b5c5cac72b63ff8b2505a1691955f16"
+            "size": 156775,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionalon/nvidium-0.2.6-beta.jar",
+            "MD5": "a481f729d96d9487a236658286037c09"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -327,7 +326,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 128303,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/puzzle-1.6.1+1.20.4.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/puzzle-1.6.1+1.20.4.jar",
             "MD5": "79efed9b1ffbae3869a0b91afaca6e15"
           }
         },
@@ -337,7 +336,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 373884,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/sodium-extra-0.5.4+mc1.20.5-build.117.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/sodium-extra-0.5.4+mc1.20.5-build.117.jar",
             "MD5": "ac118adceb63c9c7346fc20ff75ee3ae"
           }
         },
@@ -347,7 +346,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 952615,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/sodium-fabric-0.5.8+mc1.20.5.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/sodium-fabric-0.5.8+mc1.20.5.jar",
             "MD5": "d2363843b5e6cc2944e53021ff1b463a"
           }
         },
@@ -357,7 +356,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 3069363,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/spark-1.10.64-fabric.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/spark-1.10.64-fabric.jar",
             "MD5": "f596ff4b39dba1c40c109a92e7904157"
           }
         },
@@ -367,8 +366,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 6548251,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/fabricmods/required/voicechat-fabric-1.20.5-2.5.12.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionalon/voicechat-fabric-1.20.5-2.5.12.jar",
             "MD5": "eef543e3f2e4d92d678095f91d033272"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -377,7 +379,7 @@
           "type": "File",
           "artifact": {
             "size": 72357,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/.puzzle_cache/mojangstudios.png",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/.puzzle_cache/mojangstudios.png",
             "MD5": "5029cf9e2016a7c58ad38cccdd020c6a",
             "path": "config/.puzzle_cache/mojangstudios.png"
           }
@@ -388,7 +390,7 @@
           "type": "File",
           "artifact": {
             "size": 354,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/cpm.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/cpm.json",
             "MD5": "927fafee6305edaae83dc6b05c8288ac",
             "path": "config/cpm.json"
           }
@@ -399,8 +401,7 @@
           "type": "File",
           "artifact": {
             "size": 69,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/crowdin.txt",
-            "MD5": "18d4207bd4949bd6322709b41ef420a2",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/crowdin.txt",
             "path": "config/crowdin.txt"
           }
         },
@@ -410,7 +411,7 @@
           "type": "File",
           "artifact": {
             "size": 622,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/dynamic_fps.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/dynamic_fps.json",
             "MD5": "0096718b38130e7e01eb3b1c8c5428c5",
             "path": "config/dynamic_fps.json"
           }
@@ -421,7 +422,7 @@
           "type": "File",
           "artifact": {
             "size": 871,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/entityculling.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/entityculling.json",
             "MD5": "1e9496e07565504b4be879fde4cb01bd",
             "path": "config/entityculling.json"
           }
@@ -432,7 +433,7 @@
           "type": "File",
           "artifact": {
             "size": 584,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/entity_model_features.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/entity_model_features.json",
             "MD5": "85b5d20a02692a0c6489b4f3e4b6a70f",
             "path": "config/entity_model_features.json"
           }
@@ -443,7 +444,7 @@
           "type": "File",
           "artifact": {
             "size": 1145,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/entity_texture_features.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/entity_texture_features.json",
             "MD5": "ddbbb160adcb733c56813cf101be9801",
             "path": "config/entity_texture_features.json"
           }
@@ -454,7 +455,7 @@
           "type": "File",
           "artifact": {
             "size": 28,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/etf_warnings.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/etf_warnings.json",
             "MD5": "b49b5603d2df29fa132f89ec91974572",
             "path": "config/etf_warnings.json"
           }
@@ -465,7 +466,7 @@
           "type": "File",
           "artifact": {
             "size": 290,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/fabric/indigo-renderer.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/fabric/indigo-renderer.properties",
             "MD5": "2dccb9a66e7d40a1805771fce5a18423",
             "path": "config/fabric/indigo-renderer.properties"
           }
@@ -476,7 +477,7 @@
           "type": "File",
           "artifact": {
             "size": 1525,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/ferritecore.mixin.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/ferritecore.mixin.properties",
             "MD5": "bf3e6be63e300b0290cfc849beb64ede",
             "path": "config/ferritecore.mixin.properties"
           }
@@ -487,7 +488,7 @@
           "type": "File",
           "artifact": {
             "size": 396,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/hdskins.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/hdskins.json",
             "MD5": "6b5eb7a3ca51f865b7b51cd21f475928",
             "path": "config/hdskins.json"
           }
@@ -498,7 +499,7 @@
           "type": "File",
           "artifact": {
             "size": 115,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/indium-renderer.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/indium-renderer.properties",
             "MD5": "c70792e666decbf4298187c2c5902942",
             "path": "config/indium-renderer.properties"
           }
@@ -509,7 +510,7 @@
           "type": "File",
           "artifact": {
             "size": 254,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/iris.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/iris.properties",
             "MD5": "a858091564999dcc13830c436f35882e",
             "path": "config/iris.properties"
           }
@@ -520,8 +521,7 @@
           "type": "File",
           "artifact": {
             "size": 1680,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/lambdynlights.toml",
-            "MD5": "849a3b900b6bce1e448e7158911b3f56",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/lambdynlights.toml",
             "path": "config/lambdynlights.toml"
           }
         },
@@ -531,7 +531,7 @@
           "type": "File",
           "artifact": {
             "size": 430,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/lithium.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/lithium.properties",
             "MD5": "422e0797eef9c35fe7d8ecea0ac3f567",
             "path": "config/lithium.properties"
           }
@@ -542,7 +542,7 @@
           "type": "File",
           "artifact": {
             "size": 149,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/malilib.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/malilib.json",
             "MD5": "d8d1ab2efbaf17749531cb75dc7ad330",
             "path": "config/malilib.json"
           }
@@ -553,7 +553,7 @@
           "type": "File",
           "artifact": {
             "size": 34,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/midnightlib.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/midnightlib.json",
             "MD5": "96bc8c4809d1b71f3fb24d7b83aaa56e",
             "path": "config/midnightlib.json"
           }
@@ -564,8 +564,7 @@
           "type": "File",
           "artifact": {
             "size": 555,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/moreculling.toml",
-            "MD5": "5e109226d70c38b67f82942ab7205887",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/moreculling.toml",
             "path": "config/moreculling.toml"
           }
         },
@@ -575,7 +574,7 @@
           "type": "File",
           "artifact": {
             "size": 394,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/puzzle.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/puzzle.json",
             "MD5": "c717bdac79916b6966cbbe15f679e38e",
             "path": "config/puzzle.json"
           }
@@ -586,7 +585,7 @@
           "type": "File",
           "artifact": {
             "size": 1470,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/sodium-extra-options.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/sodium-extra-options.json",
             "MD5": "a47af6685644a816a4a40dc757c1bf4c",
             "path": "config/sodium-extra-options.json"
           }
@@ -597,7 +596,7 @@
           "type": "File",
           "artifact": {
             "size": 360,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/sodium-extra.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/sodium-extra.properties",
             "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
             "path": "config/sodium-extra.properties"
           }
@@ -608,7 +607,7 @@
           "type": "File",
           "artifact": {
             "size": 427,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/sodium-fingerprint.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/sodium-fingerprint.json",
             "MD5": "5f832a6e5bc3a52682e2e6a8f97d685e",
             "path": "config/sodium-fingerprint.json"
           }
@@ -619,7 +618,7 @@
           "type": "File",
           "artifact": {
             "size": 265,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/sodium-mixins.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/sodium-mixins.properties",
             "MD5": "456d99888369486f42d6ea7f70294170",
             "path": "config/sodium-mixins.properties"
           }
@@ -630,7 +629,7 @@
           "type": "File",
           "artifact": {
             "size": 632,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/sodium-options.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/sodium-options.json",
             "MD5": "0526655acb6938560728d66ecb98fc90",
             "path": "config/sodium-options.json"
           }
@@ -641,7 +640,7 @@
           "type": "File",
           "artifact": {
             "size": 128,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/updateme.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/updateme.json",
             "MD5": "cb895f289528be932b76cb536600e11b",
             "path": "config/updateme.json"
           }
@@ -652,7 +651,7 @@
           "type": "File",
           "artifact": {
             "size": 1133,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/voicechat/translations.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/voicechat/translations.properties",
             "MD5": "3847ec6998814d22e66360d37201fcc9",
             "path": "config/voicechat/translations.properties"
           }
@@ -663,7 +662,7 @@
           "type": "File",
           "artifact": {
             "size": 149,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/voicechat/username-cache.json",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/voicechat/username-cache.json",
             "MD5": "74925da02c33c1f46b3cb0fc797e71d2",
             "path": "config/voicechat/username-cache.json"
           }
@@ -674,7 +673,7 @@
           "type": "File",
           "artifact": {
             "size": 3810,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/voicechat/voicechat-client.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/voicechat/voicechat-client.properties",
             "MD5": "cc384ce2ed0ac67da02563f70fd465d2",
             "path": "config/voicechat/voicechat-client.properties"
           }
@@ -685,7 +684,7 @@
           "type": "File",
           "artifact": {
             "size": 1861,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/voicechat/voicechat-server.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/voicechat/voicechat-server.properties",
             "MD5": "169e433da81678c8469479b6234633aa",
             "path": "config/voicechat/voicechat-server.properties"
           }
@@ -696,7 +695,7 @@
           "type": "File",
           "artifact": {
             "size": 37,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/config/voicechat/voicechat-volumes.properties",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/config/voicechat/voicechat-volumes.properties",
             "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
             "path": "config/voicechat/voicechat-volumes.properties"
           }
@@ -706,9 +705,9 @@
           "name": "CustomSkinLoader.json",
           "type": "File",
           "artifact": {
-            "size": 600,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/CustomSkinLoader/CustomSkinLoader.json",
-            "MD5": "f66a23ad4bd496a7b62dc550f244186f",
+            "size": 930,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/CustomSkinLoader/CustomSkinLoader.json",
+            "MD5": "5f93815622563dc48d409df81ca08092",
             "path": "CustomSkinLoader/CustomSkinLoader.json"
           }
         },
@@ -718,8 +717,7 @@
           "type": "File",
           "artifact": {
             "size": 4702,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/options.txt",
-            "MD5": "df4e1bf9defcd56890ec7e5cb073b32e",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/options.txt",
             "path": "options.txt"
           }
         },
@@ -729,7 +727,7 @@
           "type": "File",
           "artifact": {
             "size": 496847,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/resourcepacks/FreshAnimations.zip",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/resourcepacks/FreshAnimations.zip",
             "MD5": "288dbe926372ed9eb84da49a691f1748",
             "path": "resourcepacks/FreshAnimations.zip"
           }
@@ -740,7 +738,7 @@
           "type": "File",
           "artifact": {
             "size": 2529486,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/resourcepacks/ItemsAdder.zip",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/resourcepacks/ItemsAdder.zip",
             "MD5": "6c761d60365b0332515b8afdd4f8a616",
             "path": "resourcepacks/ItemsAdder.zip"
           }
@@ -751,7 +749,7 @@
           "type": "File",
           "artifact": {
             "size": 9268799,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/resourcepacks/Lurkarya.zip",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/resourcepacks/Lurkarya.zip",
             "MD5": "4a9d0b6a65ee77043393b9864a0d457f",
             "path": "resourcepacks/Lurkarya.zip"
           }
@@ -762,7 +760,7 @@
           "type": "File",
           "artifact": {
             "size": 3412030,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/resourcepacks/Magic-RP-1.20.zip",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/resourcepacks/Magic-RP-1.20.zip",
             "MD5": "2cd2693edaa8ab4ebf74638e5137e457",
             "path": "resourcepacks/Magic-RP-1.20.zip"
           }
@@ -773,7 +771,7 @@
           "type": "File",
           "artifact": {
             "size": 1672393,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/resourcepacks/Sparkles_1.20.4_v1.0.5.zip",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/resourcepacks/Sparkles_1.20.4_v1.0.5.zip",
             "MD5": "fe3a60489c27529a2b600c816b724dc4",
             "path": "resourcepacks/Sparkles_1.20.4_v1.0.5.zip"
           }
@@ -784,7 +782,7 @@
           "type": "File",
           "artifact": {
             "size": 549987,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/resourcepacks/UltimateFood.zip",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/resourcepacks/UltimateFood.zip",
             "MD5": "5d03c2edc13ba26ac858ab433bf446cc",
             "path": "resourcepacks/UltimateFood.zip"
           }
@@ -795,7 +793,7 @@
           "type": "File",
           "artifact": {
             "size": 3466,
-            "url": "https://resources.lsmp.site/servers/LurkaryaALPHA-1.20.5/files/servers.dat",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/files/servers.dat",
             "MD5": "ae0a31bc5c00ec3507c23e5f1591fb74",
             "path": "servers.dat"
           }
@@ -807,7 +805,7 @@
       "name": "LurkaryaSMP (Minecraft 1.20.4)",
       "description": "Embarcate en un mundo de aventuras mientras descubres los secretos detrás de este lugar!",
       "icon": "https://resources.lsmp.site/server-icon.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "jugar.lsmp.site:25565",
       "minecraftVersion": "1.20.4",
       "discord": {
@@ -815,7 +813,7 @@
         "largeImageText": "Jugando en Lurkarya",
         "largeImageKey": "o"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -1558,9 +1556,9 @@
           "name": "CustomSkinLoader.json",
           "type": "File",
           "artifact": {
-            "size": 769,
+            "size": 930,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.4/files/CustomSkinLoader/CustomSkinLoader.json",
-            "MD5": "383d4d80f3b905324c769dc439081335",
+            "MD5": "5f93815622563dc48d409df81ca08092",
             "path": "CustomSkinLoader/CustomSkinLoader.json"
           }
         },
