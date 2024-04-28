@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.0",
   "rss": "https://news.lsmp.site/category/noticias/feed/",
   "discord": {
     "clientId": "1231317013423722530",
@@ -121,8 +121,12 @@
           "type": "FabricMod",
           "artifact": {
             "size": 48606,
-            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/antighost-1.20.4-fabric0.91.2-1.1.5.jar",
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionaloff/antighost-1.20.4-fabric0.91.2-1.1.5.jar",
             "MD5": "798a4302bb931c873fd0a548dc1efdfc"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -245,6 +249,20 @@
           }
         },
         {
+          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 568669,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionaloff/lambdynamiclights-2.3.4+1.20.4.jar",
+            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "me.jellysquid.mods:lithium:0.12.1+git.98a10fb@jar",
           "name": "Lithium",
           "type": "FabricMod",
@@ -348,16 +366,6 @@
             "size": 3069363,
             "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/required/spark-1.10.64-fabric.jar",
             "MD5": "f596ff4b39dba1c40c109a92e7904157"
-          }
-        },
-        {
-          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
-          "name": "LambDynamicLights",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 568669,
-            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.5/fabricmods/optionaloff/lambdynamiclights-2.3.4+1.20.4.jar",
-            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
           }
         },
         {
