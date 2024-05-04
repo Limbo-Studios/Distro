@@ -1,10 +1,10 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.6",
   "rss": "https://news.lsmp.site/category/noticias/feed/",
   "discord": {
     "clientId": "1231317013423722530",
     "smallImageText": "LimboLauncher",
-    "smallImageKey": "o"
+    "smallImageKey": "logo"
   },
   "servers": [
     {
@@ -139,6 +139,16 @@
           }
         },
         {
+          "id": "me.pepperbell:continuity:3.0.0-beta.4+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050675,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/required/continuity-3.0.0-beta.4+1.20.2.jar",
+            "MD5": "b348965933103bb02f9731c6bca76398"
+          }
+        },
+        {
           "id": "com.tom:cpm:0.6.16e@jar",
           "name": "Customizable Player Models",
           "type": "FabricMod",
@@ -199,9 +209,9 @@
           "name": "EntityCulling",
           "type": "FabricMod",
           "artifact": {
-            "size": 62411,
-            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/required/entityculling-fabric-1.6.4-mc1.20.5.jar",
-            "MD5": "21820e20b849cabb9f75b7c9202cfecc"
+            "size": 63693,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/required/entityculling-fabric-1.6.4-mc1.20.6.jar",
+            "MD5": "2ad489f38fe255dcb9cc788d339fdc18"
           }
         },
         {
@@ -215,13 +225,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:ferritecore:6.1.0@jar",
+          "id": "generated.fabricmod:ferritecore:6.1.1@jar",
           "name": "FerriteCore",
           "type": "FabricMod",
           "artifact": {
-            "size": 103302,
-            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/optionalon/ferritecore-6.1.0-GH82-fabric.jar",
-            "MD5": "0bcb8f30591b0d1610c6906cec7225e3"
+            "size": 118182,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/optionalon/ferritecore-6.1.1-fabric.jar",
+            "MD5": "89654e168d9f271b435f529f85976b1c"
           },
           "required": {
             "value": false
@@ -295,13 +305,13 @@
           }
         },
         {
-          "id": "eu.midnightdust.fabric.core:midnightlib:1.5.4@jar",
+          "id": "eu.midnightdust.fabric.core:midnightlib:1.5.3@jar",
           "name": "MidnightLib",
           "type": "FabricMod",
           "artifact": {
-            "size": 53799,
-            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/required/midnightlib-fabric-1.5.4.jar",
-            "MD5": "1e573445e9e05e9afd18e7b446121847"
+            "size": 51262,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/required/midnightlib-fabric-1.5.3.jar",
+            "MD5": "f6c56de96be04274ea52ad42f117821b"
           }
         },
         {
@@ -338,13 +348,13 @@
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.5-build.117@jar",
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.5+mc1.20.6-build.118@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
           "artifact": {
-            "size": 373884,
-            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/required/sodium-extra-0.5.4+mc1.20.5-build.117.jar",
-            "MD5": "ac118adceb63c9c7346fc20ff75ee3ae"
+            "size": 374163,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/required/sodium-extra-0.5.5+mc1.20.6-build.118.jar",
+            "MD5": "1d0af7ea70c54e0dd4105045b86423ae"
           }
         },
         {
@@ -368,13 +378,13 @@
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.20.6-2.5.12@jar",
+          "id": "de.maxhenkel:voicechat:1.20.6-2.5.13@jar",
           "name": "Simple Voice Chat",
           "type": "FabricMod",
           "artifact": {
-            "size": 6548633,
-            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/optionalon/voicechat-fabric-1.20.6-2.5.12.jar",
-            "MD5": "00dff6673b7671d2fe1cfe0ce176038d"
+            "size": 6548416,
+            "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/fabricmods/optionalon/voicechat-fabric-1.20.6-2.5.13.jar",
+            "MD5": "6918034bf978c394c62b6782d47e9f5c"
           },
           "required": {
             "value": false
@@ -712,9 +722,9 @@
           "name": "CustomSkinLoader.json",
           "type": "File",
           "artifact": {
-            "size": 930,
+            "size": 761,
             "url": "https://resources.lsmp.site/servers/LurkaryaBETA-1.20.6/files/CustomSkinLoader/CustomSkinLoader.json",
-            "MD5": "5f93815622563dc48d409df81ca08092",
+            "MD5": "daed4424138525087d1c4fce2b7f153d",
             "path": "CustomSkinLoader/CustomSkinLoader.json"
           }
         },
@@ -1566,9 +1576,9 @@
           "name": "CustomSkinLoader.json",
           "type": "File",
           "artifact": {
-            "size": 930,
+            "size": 761,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.4/files/CustomSkinLoader/CustomSkinLoader.json",
-            "MD5": "5f93815622563dc48d409df81ca08092",
+            "MD5": "daed4424138525087d1c4fce2b7f153d",
             "path": "CustomSkinLoader/CustomSkinLoader.json"
           }
         },
