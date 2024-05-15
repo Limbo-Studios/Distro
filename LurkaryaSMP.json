@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.0.0",
   "rss": "https://news.lsmp.site/category/noticias/feed/",
   "discord": {
     "clientId": "1231317013423722530",
@@ -12,7 +12,7 @@
       "name": "LurkaryaSMP (Minecraft 1.20.6)",
       "description": "Embarcate en un mundo de aventuras mientras descubres los secretos detrás de este lugar!",
       "icon": "https://resources.lsmp.site/server-icon.png",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "address": "jugar.lsmp.site:25565",
       "minecraftVersion": "1.20.6",
       "discord": {
@@ -395,10 +395,21 @@
           "name": "mojangstudios.png",
           "type": "File",
           "artifact": {
-            "size": 72357,
+            "size": 64477,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/.puzzle_cache/mojangstudios.png",
-            "MD5": "5029cf9e2016a7c58ad38cccdd020c6a",
+            "MD5": "cab28175c88e78bba15c1b40f21de46d",
             "path": "config/.puzzle_cache/mojangstudios.png"
+          }
+        },
+        {
+          "id": "continuity.json",
+          "name": "continuity.json",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/continuity.json",
+            "MD5": "16114edbb9460c49373bb12561ddf7c3",
+            "path": "config/continuity.json"
           }
         },
         {
@@ -406,9 +417,9 @@
           "name": "cpm.json",
           "type": "File",
           "artifact": {
-            "size": 354,
+            "size": 466,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/cpm.json",
-            "MD5": "927fafee6305edaae83dc6b05c8288ac",
+            "MD5": "e5899e6e87f6dc77e052ae1d4b93e2c7",
             "path": "config/cpm.json"
           }
         },
@@ -449,9 +460,9 @@
           "name": "entity_model_features.json",
           "type": "File",
           "artifact": {
-            "size": 584,
+            "size": 662,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/entity_model_features.json",
-            "MD5": "85b5d20a02692a0c6489b4f3e4b6a70f",
+            "MD5": "1195b44cdb702ec93fad2edd155cb0ee",
             "path": "config/entity_model_features.json"
           }
         },
@@ -460,9 +471,9 @@
           "name": "entity_texture_features.json",
           "type": "File",
           "artifact": {
-            "size": 1145,
+            "size": 1189,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/entity_texture_features.json",
-            "MD5": "ddbbb160adcb733c56813cf101be9801",
+            "MD5": "06c0a85651987e3bcd9307adedc14cf2",
             "path": "config/entity_texture_features.json"
           }
         },
@@ -484,7 +495,7 @@
           "artifact": {
             "size": 290,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/fabric/indigo-renderer.properties",
-            "MD5": "2dccb9a66e7d40a1805771fce5a18423",
+            "MD5": "a99a40b019b5b36dfbeb969c3bb66dc6",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -517,7 +528,7 @@
           "artifact": {
             "size": 115,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/indium-renderer.properties",
-            "MD5": "c70792e666decbf4298187c2c5902942",
+            "MD5": "661ac03768bb990fd23500321ea60180",
             "path": "config/indium-renderer.properties"
           }
         },
@@ -526,9 +537,9 @@
           "name": "iris.properties",
           "type": "File",
           "artifact": {
-            "size": 254,
+            "size": 264,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/iris.properties",
-            "MD5": "a858091564999dcc13830c436f35882e",
+            "MD5": "5613a49b578a402ff261b09a64f7a43d",
             "path": "config/iris.properties"
           }
         },
@@ -537,7 +548,7 @@
           "name": "lambdynlights.toml",
           "type": "File",
           "artifact": {
-            "size": 1680,
+            "size": 2379,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/lambdynlights.toml",
             "path": "config/lambdynlights.toml"
           }
@@ -558,9 +569,9 @@
           "name": "malilib.json",
           "type": "File",
           "artifact": {
-            "size": 149,
+            "size": 306,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/malilib.json",
-            "MD5": "d8d1ab2efbaf17749531cb75dc7ad330",
+            "MD5": "241bfb21e9b67bfdd746a2e35d9b3b92",
             "path": "config/malilib.json"
           }
         },
@@ -592,7 +603,7 @@
           "artifact": {
             "size": 394,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/puzzle.json",
-            "MD5": "c717bdac79916b6966cbbe15f679e38e",
+            "MD5": "8a0f6a9adb87aa66bc34c3f016285cdc",
             "path": "config/puzzle.json"
           }
         },
@@ -601,9 +612,9 @@
           "name": "sodium-extra-options.json",
           "type": "File",
           "artifact": {
-            "size": 1470,
+            "size": 1509,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/sodium-extra-options.json",
-            "MD5": "a47af6685644a816a4a40dc757c1bf4c",
+            "MD5": "e6cb1f73af53d4671e83e4821d8506d7",
             "path": "config/sodium-extra-options.json"
           }
         },
@@ -625,7 +636,7 @@
           "artifact": {
             "size": 427,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/sodium-fingerprint.json",
-            "MD5": "5f832a6e5bc3a52682e2e6a8f97d685e",
+            "MD5": "d32de3b96af3bce02991f84d9164db49",
             "path": "config/sodium-fingerprint.json"
           }
         },
@@ -645,10 +656,21 @@
           "name": "sodium-options.json",
           "type": "File",
           "artifact": {
-            "size": 632,
+            "size": 631,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/sodium-options.json",
-            "MD5": "0526655acb6938560728d66ecb98fc90",
+            "MD5": "a1825f69c29b5db6b13d4e1c9eba4161",
             "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 117,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/spark/config.json",
+            "MD5": "fd707ecbb3f9675d81535e88b7712d0b",
+            "path": "config/spark/config.json"
           }
         },
         {
@@ -678,9 +700,9 @@
           "name": "username-cache.json",
           "type": "File",
           "artifact": {
-            "size": 149,
+            "size": 1474,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/voicechat/username-cache.json",
-            "MD5": "74925da02c33c1f46b3cb0fc797e71d2",
+            "MD5": "9556713d8c7a1d716862312ccf109f14",
             "path": "config/voicechat/username-cache.json"
           }
         },
@@ -689,9 +711,9 @@
           "name": "voicechat-client.properties",
           "type": "File",
           "artifact": {
-            "size": 3810,
+            "size": 3910,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/voicechat/voicechat-client.properties",
-            "MD5": "cc384ce2ed0ac67da02563f70fd465d2",
+            "MD5": "daec43797585422baca0ef54f119f111",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
@@ -702,7 +724,7 @@
           "artifact": {
             "size": 1861,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/voicechat/voicechat-server.properties",
-            "MD5": "169e433da81678c8469479b6234633aa",
+            "MD5": "5fcb1424bed95c3139abdc01aba025c6",
             "path": "config/voicechat/voicechat-server.properties"
           }
         },
@@ -711,9 +733,9 @@
           "name": "voicechat-volumes.properties",
           "type": "File",
           "artifact": {
-            "size": 37,
+            "size": 93,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/config/voicechat/voicechat-volumes.properties",
-            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
+            "MD5": "74c71bf2f994415bc414447288cf8a4f",
             "path": "config/voicechat/voicechat-volumes.properties"
           }
         },
@@ -733,7 +755,7 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 4702,
+            "size": 4972,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/options.txt",
             "path": "options.txt"
           }
@@ -809,9 +831,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 3466,
+            "size": 3571,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/files/servers.dat",
-            "MD5": "ae0a31bc5c00ec3507c23e5f1591fb74",
+            "MD5": "dd8f694481b33809c05a543e91ed6c0f",
             "path": "servers.dat"
           }
         }
