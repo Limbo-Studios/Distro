@@ -588,16 +588,6 @@
           }
         },
         {
-          "id": "generated.forgemod:essential_1:3-2-5_forge_1-19-2@jar",
-          "name": "Essential_1",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 52224167,
-            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/essential_1-3-2-5_forge_1-19-2.jar",
-            "MD5": "59b54c9a4e5f19c20255651120e1c96b"
-          }
-        },
-        {
           "id": "io.github.mortuusars:exposure:1.6.0@jar",
           "name": "Exposure",
           "type": "ForgeMod",
