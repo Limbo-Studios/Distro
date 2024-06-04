@@ -1,5 +1,5 @@
 {
-  "version": "1.4.5",
+  "version": "1.4.6",
   "rss": "https://news.lsmp.site/category/noticias/feed/",
   "discord": {
     "clientId": "1231317013423722530",
@@ -7,6 +7,978 @@
     "smallImageKey": "logo"
   },
   "servers": [
+    {
+      "id": "Amiguitos-1.19.2",
+      "name": ":3",
+      "description": "Nada q ver jaja KJSDFBDKHJL",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "",
+      "minecraftVersion": "1.19.2",
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.3.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7374,
+            "MD5": "0354722ec9c17a9db17709f0a45688c0",
+            "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.3.0/lowcodelanguage-1.19.2-43.3.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.3.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15497,
+                "MD5": "3dd83885100878f1d99a613e913e8d86",
+                "url": "https://resources.lsmp.site/repo/versions/1.19.2-forge-43.3.0/1.19.2-forge-43.3.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.3.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 112531,
+                "MD5": "3ec9334dbbd9b222dc521daee27cde10",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.3.0/fmlcore-1.19.2-43.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.3.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16348,
+                "MD5": "de57cf52eda75b5b401102e823ff9726",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.3.0/javafmllanguage-1.19.2-43.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.3.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4982,
+                "MD5": "8902b15fa6917c61761d997935e60306",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.3.0/mclanguage-1.19.2-43.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2638779,
+                "MD5": "06fdeffe211d59b9556f6339637606bb",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/forge/1.19.2-43.3.0/forge-1.19.2-43.3.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5417571,
+                "MD5": "3fd51c98b49149e573df70ac94ee206e",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/forge/1.19.2-43.3.0/forge-1.19.2-43.3.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://resources.lsmp.site/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://resources.lsmp.site/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://resources.lsmp.site/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://resources.lsmp.site/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://resources.lsmp.site/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://resources.lsmp.site/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://resources.lsmp.site/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://resources.lsmp.site/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://resources.lsmp.site/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://resources.lsmp.site/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://resources.lsmp.site/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://resources.lsmp.site/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.3.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261376,
+                "MD5": "a97a7b065aed6a0f9431a7b4450c0acd",
+                "url": "https://resources.lsmp.site/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.3.0/fmlloader-1.19.2-43.3.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.geforcemods:securitycraft:1.9.6.1@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3664060,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/[1.19.2]%20SecurityCraft%20v1.9.6.1.jar",
+            "MD5": "9a8f703f40223bdd8eff9f0d1d6fda84"
+          }
+        },
+        {
+          "id": "com.aetherteam:aether:1.19.2-1.4.2-forge@jar",
+          "name": "The Aether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23258002,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/aether-1.19.2-1.4.2-forge.jar",
+            "MD5": "8fbbf39a2002514daa1e3157a487ee59"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.21.1@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25655463,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/alexsmobs-1.21.1.jar",
+            "MD5": "0ba48ab00c965c7acaa061d0844d9f17"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:6.6.92@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 559099,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/architectury-6.6.92-forge.jar",
+            "MD5": "ddf52fbc5ce9e2d1e6779d29f74cb573"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:1.19.2-5.0.6@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 602656,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/artifacts-1.19.2-5.0.6.jar",
+            "MD5": "cc26db4c405d4fb4c4f443c938051ad7"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:4.6.0@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 314084,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/balm-forge-1.19.2-4.6.0.jar",
+            "MD5": "009bdfde01e742c98cfe71babbd58fce"
+          }
+        },
+        {
+          "id": "com.st0x0ef:beyond_earth:7.0-PRERELEASE@jar",
+          "name": "Beyond Earth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5681047,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/Beyond-Earth-1.19.2-7.0-PRERELEASE.jar",
+            "MD5": "d00f8bffdb375c67e9e595aeb7c7fce5"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre35@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2209834,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/cfm-7.0.0-pre35-1.19.2.jar",
+            "MD5": "cd3ceae9615012f62d84fa1af860a1b0"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.1.4@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3063232,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/citadel-2.1.4-1.19.jar",
+            "MD5": "5271cd9beb2675bd9fd76ed14a66e763"
+          }
+        },
+        {
+          "id": "corgitaco.corgilib:corgilib:1.0.0.34@jar",
+          "name": "CorgiLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285958,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/CorgiLib-forge-1.19.2-1.0.0.34.jar",
+            "MD5": "555af4f4904e6678ae44022009e909b9"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.19.2-1.0.12@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 240877,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/corpse-forge-1.19.2-1.0.12.jar",
+            "MD5": "bb338c6c7c8d8d576c5371f7e902aa2a"
+          }
+        },
+        {
+          "id": "lain.mods.cos.init:cosmeticarmorreworked:1.19.2-v1a@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87648,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/CosmeticArmorReworked-1.19.2-v1a.jar",
+            "MD5": "04e67c8f93e7121efb0b34d96db6370c"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.9.3@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 917084,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/CreativeCore_FORGE_v2.9.4_mc1.19.2.jar",
+            "MD5": "a38e11e6c304a0c54b0a0ada5d5d718e"
+          }
+        },
+        {
+          "id": "com.epherical:croptopia:2.2.2@jar",
+          "name": "Croptopia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1962724,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/Croptopia-1.19.2-FORGE-2.2.2.jar",
+            "MD5": "b6b24de5e190dab0c87e3252a8a5b1ea"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.19.2-5.1.6.2@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 288393,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/curios-forge-1.19.2-5.1.6.2.jar",
+            "MD5": "780a331cd5a41d925f67f8c4bdc8e3ce"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.56-1.19.2@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7373714,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/DungeonsArise-1.19.2-2.1.56-beta.jar",
+            "MD5": "b51541a7529ae54a665acc7b29b7b57a"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 679181,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/emotecraft-for-MC1.19.2-2.2.7-b.build.50-forge.jar",
+            "MD5": "959b35de86ec41076882521179cb2d06"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.1@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60289,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/entityculling-forge-1.6.1-mc1.19.2.jar",
+            "MD5": "094f1d0f3aad06ee4c5bb0c3f8a208d5"
+          }
+        },
+        {
+          "id": "generated.forgemod:essential_1:3-2-5_forge_1-19-2@jar",
+          "name": "Essential_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52224167,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/essential_1-3-2-5_forge_1-19-2.jar",
+            "MD5": "59b54c9a4e5f19c20255651120e1c96b"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:exposure:1.6.0@jar",
+          "name": "Exposure",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1043663,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/exposure-1.19.2-1.6.0-forge.jar",
+            "MD5": "6762e23aed0bc1c6c2d45abbb8201558"
+          }
+        },
+        {
+          "id": "me.paulf:fairylights:6.0.1@jar",
+          "name": "Fairy Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 818767,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/fairylights-6.0.1-1.19.2.jar",
+            "MD5": "4342db4269843744762475d8683a29a0"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.19.2-1.2.4@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2769499,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/FarmersDelight-1.19.2-1.2.4.jar",
+            "MD5": "33309d175ba1410ac918f7ceac869a34"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:5.0.3@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116824,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/ferritecore-5.0.3-forge.jar",
+            "MD5": "c556facc604bd4fc0824c4524c73b9b9"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.1.40@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2938383,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/geckolib-forge-1.19-3.1.40.jar",
+            "MD5": "99b50d68f49918186714abf7746f0249"
+          }
+        },
+        {
+          "id": "net.stardustlabs:incendium:5.1.6@jar",
+          "name": "Incendium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4357270,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/Incendium_1.19.3_v5.1.6.jar",
+            "MD5": "f1974cebe812f4c366a9d2eaaa3cec1e"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.8@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7091961,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/journeymap-1.19.2-5.9.8-forge.jar",
+            "MD5": "b4feb9a30457ccdc33c6c4c201a79244"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/memoryleakfix-forge-1.17+-1.1.5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.17.0+mc1.19.2@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 757155,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/modernfix-forge-5.17.0+mc1.19.2.jar",
+            "MD5": "b8d29ea99d98b6999d2b02eff86f982c"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.19.2-2.3.5@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 868462,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/moonlight-1.19.2-2.3.5-forge.jar",
+            "MD5": "9e3f15559988fa11efac61d873f5f896"
+          }
+        },
+        {
+          "id": "net.stardustlabs:nullscape:1.2.2@jar",
+          "name": "Nullscape",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 367819,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/Nullscape_1.19.3_v1.2.2.jar",
+            "MD5": "e217b68369417e3dded050ed0be78683"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3499284,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
+          }
+        },
+        {
+          "id": "com.laidbacksloth:oculusparticlefix:1.0@jar",
+          "name": "Oculus Particle Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 163664,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/oculusparticlefix-1.0.jar",
+            "MD5": "826743457ead6e8a8db65153629f4330"
+          }
+        },
+        {
+          "id": "potionstudios.byg:byg:2.0.1.6@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37211656,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.6.jar",
+            "MD5": "83fadaffe0ae1ec179586c88bd589fc1"
+          }
+        },
+        {
+          "id": "tictim.paraglider:paraglider:1.7.0.5@jar",
+          "name": "Paraglider",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382706,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/Paraglider-1.19.2-1.7.0.5.jar",
+            "MD5": "db911a2b12ce98f645dfbbb717d19217"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.0.9@jar",
+          "name": "Plasmo Voice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11438942,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/plasmovoice-forge-1.19.2-2.0.9.jar",
+            "MD5": "836d8209cabf0282e041f27c208a28dd"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181297,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/player-animation-lib-forge-1.0.2.jar",
+            "MD5": "32be10092ee8672a2e3a36a019007a96"
+          }
+        },
+        {
+          "id": "team.creative:playerrevive:2.0.14@jar",
+          "name": "PlayerRevive",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5291957,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/PlayerRevive_FORGE_v2.0.14_mc1.19.2.jar",
+            "MD5": "80adee29e1acd489ed926850100af2bf"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.2c@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1407451,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/rubidium-mc1.19.2-0.6.2c.jar",
+            "MD5": "b9d54d5171598463ef4456083eeb3ce8"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.19.2-3.20.2.1035@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 835625,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/sophisticatedbackpacks-1.19.2-3.20.2.1035.jar",
+            "MD5": "270a11790529c98e62ea287573b9fe0f"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.19.2-0.6.4.605@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1059090,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/sophisticatedcore-1.19.2-0.6.4.605.jar",
+            "MD5": "88f3e18a9b5f8eb0dca05049eb49dd39"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.19.2-2.4.20@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14957348,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/supplementaries-1.19.2-2.4.20.jar",
+            "MD5": "3ee56b57bb46649d3298c2d602f939ae"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:2.0.1.166@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96810,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/TerraBlender-forge-1.19.2-2.0.1.166.jar",
+            "MD5": "88e8f14b1f07309e4b8a605ad96087be"
+          }
+        },
+        {
+          "id": "net.stardustlabs:terralith:2.3.12@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2990344,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/Terralith_1.19.3_v2.3.12.jar",
+            "MD5": "874142f5a20f0e6ea8fc1d406f4ee58c"
+          }
+        },
+        {
+          "id": "net.blay09.mods:trashslot:12.1.0@jar",
+          "name": "TrashSlot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 118131,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/trashslot-forge-1.19.2-12.1.0.jar",
+            "MD5": "255ea9ebf518959ae805d11924b75c99"
+          }
+        },
+        {
+          "id": "dev.itsmeow:whisperwoods:1.19-2.1.1@jar",
+          "name": "Whisperwoods",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1236082,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/whisperwoods-1.19-2.1.1-forge.jar",
+            "MD5": "605c1a79784b206f58a5d48c512be5b1"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.19.2-Forge-3.8.10@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293336,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsApi-1.19.2-Forge-3.8.10.jar",
+            "MD5": "d49eb0504b00d99320588c681535dcc3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.19.2-Forge-2.2.2@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 986299,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar",
+            "MD5": "94d1f62e9247c0f9ffe4aca5eb2eaad5"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.19.2-Forge-3.2.2@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 997998,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterDungeons-1.19.2-Forge-3.2.2.jar",
+            "MD5": "23c0c4dda050b0ac7b3893f6081d925d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.19.2-Forge-1.0@jar",
+          "name": "YUNG's Better End Island",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 636740,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterEndIsland-1.19.2-Forge-1.0.jar",
+            "MD5": "91f6a4f40c2e354a7bf11a63cd8cd622"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.19.2-Forge-1.0.1@jar",
+          "name": "YUNG's Better Jungle Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1268117,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterJungleTemples-1.19.2-Forge-1.0.1.jar",
+            "MD5": "a53333f9c22cc4d9171f5d522c10ef76"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.19.2-Forge-3.2.1@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273478,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar",
+            "MD5": "e33f9e1cd9936cd6371f759f15470d9d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.19.2-Forge-1.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 820449,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar",
+            "MD5": "6bd55703a87dd8493412bca8bbfc459e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.19.2-Forge-2.1.1@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1510053,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar",
+            "MD5": "4cd617cda5ec5159825b5af4be82bbdc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.19.2-Forge-3.2.0@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 409767,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar",
+            "MD5": "daa46493c03703aa9f6994548b43518f"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterwitchhuts:1.19.2-Forge-2.1.0@jar",
+          "name": "YUNG's Better Witch Huts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241850,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar",
+            "MD5": "352e986c69027ba98cff3f87d8358fcc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsbridges:1.19.2-Forge-3.1.0@jar",
+          "name": "YUNG's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 379125,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsBridges-1.19.2-Forge-3.1.0.jar",
+            "MD5": "80ce6fcaec88b65439319ce0fd429ce2"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsextras:1.19.2-Forge-3.1.0@jar",
+          "name": "YUNG's Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 406444,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/YungsExtras-1.19.2-Forge-3.1.0.jar",
+            "MD5": "95e19cc18b2ff87e2138100ef077e849"
+          }
+        }
+      ]
+    },
     {
       "id": "LurkaryaLEGACY-1.20.4",
       "name": "LurkaryaSMP (Minecraft 1.20.4)",
