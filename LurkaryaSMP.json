@@ -1,5 +1,5 @@
 {
-  "version": "1.4.6",
+  "version": "1.5.0",
   "rss": "https://news.lsmp.site/category/noticias/feed/",
   "discord": {
     "clientId": "1231317013423722530",
@@ -628,6 +628,16 @@
           }
         },
         {
+          "id": "generated.forgemod:forge_1:19-2@jar",
+          "name": "Forge_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52224167,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/forge_1-19-2.jar",
+            "MD5": "59b54c9a4e5f19c20255651120e1c96b"
+          }
+        },
+        {
           "id": "software.bernie.example:geckolib3:3.1.40@jar",
           "name": "GeckoLib",
           "type": "ForgeMod",
@@ -675,6 +685,16 @@
             "size": 757155,
             "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/modernfix-forge-5.17.0+mc1.19.2.jar",
             "MD5": "b8d29ea99d98b6999d2b02eff86f982c"
+          }
+        },
+        {
+          "id": "generated.forgemod:mods:0.0.0@jar",
+          "name": "Mods",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223727548,
+            "url": "https://resources.lsmp.site/servers/Amiguitos-1.19.2/forgemods/required/mods.zip",
+            "MD5": "d7c9c12a2c7315896c47a556c21536d1"
           }
         },
         {
@@ -970,887 +990,11 @@
       ]
     },
     {
-      "id": "LurkaryaLEGACY-1.20.4",
-      "name": "LurkaryaSMP (Minecraft 1.20.4)",
-      "description": "Embarcate en un mundo de aventuras mientras descubres los secretos detrás de este lugar!",
-      "icon": "https://resources.lsmp.site/alpha-icon.png",
-      "version": "1.4.5",
-      "address": "jugar.lsmp.site:25565",
-      "minecraftVersion": "1.20.4",
-      "discord": {
-        "shortId": "Lurkarya",
-        "largeImageText": "Jugando en Lurkarya LEGACY",
-        "largeImageKey": "o"
-      },
-      "mainServer": false,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.15.11",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1327691,
-            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
-            "url": "https://resources.lsmp.site/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.4-fabric-0.15.11",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2849,
-                "MD5": "3d27d095ead27bdd07e25bf1149d821a",
-                "url": "https://resources.lsmp.site/repo/versions/1.20.4-fabric-0.15.11/1.20.4-fabric-0.15.11.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.6",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 123598,
-                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 34041,
-                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72194,
-                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51935,
-                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.6",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 91131,
-                "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "https://resources.lsmp.site/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1458875,
-                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
-                "url": "https://resources.lsmp.site/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.20.4",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "artifact": {
-                "size": 608319,
-                "MD5": "3a1cade1634c518db6147c9771686ea9",
-                "url": "https://resources.lsmp.site/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "de.guntram.mcmod:antighost:1.20.4-fabric0.91.2-1.1.5@jar",
-          "name": "AntiGhost",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 48606,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/antighost-1.20.4-fabric0.91.2-1.1.5.jar",
-            "MD5": "798a4302bb931c873fd0a548dc1efdfc"
-          }
-        },
-        {
-          "id": "me.shedaniel.autoconfig.example:cloth-config:13.0.121@jar",
-          "name": "Cloth Config v13",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1142084,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/cloth-config-13.0.121-fabric.jar",
-            "MD5": "3903e7d3c9957bacedae1365ba856202"
-          }
-        },
-        {
-          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.20.2@jar",
-          "name": "Continuity",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1009401,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/continuity-3.0.0-beta.5+1.20.2.jar",
-            "MD5": "2b62a19992d9e8cbbe6f2830074cfee3"
-          }
-        },
-        {
-          "id": "com.tom:cpm:0.6.16c@jar",
-          "name": "Customizable Player Models",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2611938,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/CustomPlayerModels-Fabric-1.20.4-0.6.16c.jar",
-            "MD5": "18c5f076977444fa4d0ea783ce2e7ec4"
-          }
-        },
-        {
-          "id": "generated.fabricmod:customskinloader:14.19.1@jar",
-          "name": "CustomSkinLoader",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 171971,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/CustomSkinLoader_Fabric-14.19.1.jar",
-            "MD5": "1b2dcd6dd16769b295cab31feb0630e4"
-          }
-        },
-        {
-          "id": "net.lostluma.dynamic_fps.impl.fabric.compat:dynamic_fps:3.4.3@jar",
-          "name": "Dynamic FPS",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 99715,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/dynamic-fps-3.4.3+minecraft-1.20.0-fabric.jar",
-            "MD5": "6389125cb5c605300985078ce51a4b3c"
-          }
-        },
-        {
-          "id": "traben.entity_model_features:entity_model_features:2.0.2@jar",
-          "name": "Entity Model Features",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 387883,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/entity_model_features_fabric_1.20.4-2.0.2.jar",
-            "MD5": "e7cb2558004a2f95768f18bbbab0a41a"
-          }
-        },
-        {
-          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
-          "name": "Entity Texture Features",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 541212,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/entity_texture_features_fabric_1.20.4-6.0.1.jar",
-            "MD5": "41eeb056d0f0135b78fc13cf4c09d265"
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.6.4@jar",
-          "name": "EntityCulling",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 59582,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/entityculling-fabric-1.6.4-mc1.20.4.jar",
-            "MD5": "7b3ee1a853de2b28906b9840f3cba3ae"
-          }
-        },
-        {
-          "id": "generated.fabricmod:fabric-api:0.97.0+1.20.4@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2187067,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/fabric-api-0.97.0+1.20.4.jar",
-            "MD5": "0f6ca3c5ba9bf050c2ae09203cb7438c"
-          }
-        },
-        {
-          "id": "generated.fabricmod:ferritecore:6.0.3@jar",
-          "name": "FerriteCore",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 125100,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/ferritecore-6.0.3-fabric.jar",
-            "MD5": "a684cfcdbc32eddaf78782fb4e5762f4"
-          }
-        },
-        {
-          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
-          "name": "Indium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 104805,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
-            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
-          }
-        },
-        {
-          "id": "generated.fabricmod:iris:1.7.0+mc1.20.4@jar",
-          "name": "Iris",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2671419,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/iris-1.7.0+mc1.20.4.jar",
-            "MD5": "4cd07c5091cc9646ea26f7242a316bbe"
-          }
-        },
-        {
-          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
-          "name": "LambDynamicLights",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 568669,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/lambdynamiclights-2.3.4+1.20.4.jar",
-            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
-          "name": "Lithium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 716022,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
-            "MD5": "83da6729d5402dc42eca740a96f97346"
-          }
-        },
-        {
-          "id": "fi.dy.masa:malilib:0.18.1@jar",
-          "name": "MaLiLib",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 746317,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/malilib-fabric-1.20.4-0.18.1.jar",
-            "MD5": "354961f0e8b9ded90b92640b9452ef88"
-          }
-        },
-        {
-          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
-          "name": "Memory Leak Fix",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 49334,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
-            "MD5": "a8461f89d267441752c95beb5448e940"
-          }
-        },
-        {
-          "id": "eu.midnightdust.fabric.core:midnightlib:1.5.3@jar",
-          "name": "MidnightLib",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 51262,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/midnightlib-fabric-1.5.3.jar",
-            "MD5": "f6c56de96be04274ea52ad42f117821b"
-          }
-        },
-        {
-          "id": "ca.fxco:moreculling:1.20.4-0.24.0@jar",
-          "name": "More Culling",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 272851,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/moreculling-1.20.4-0.24.0.jar",
-            "MD5": "109804ad4b9f14a549f02bf26c98ac44"
-          }
-        },
-        {
-          "id": "generated.fabricmod:no-resource-pack-warnings:1.3.0@jar",
-          "name": "No Resource Pack Warnings",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 5173,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/no-resource-pack-warnings-1.3.0.jar",
-            "MD5": "f49348875a0cf003322e0782d901dcbf"
-          }
-        },
-        {
-          "id": "com.aizistral:nochatreports:1.20.4-v2.6.1@jar",
-          "name": "No Chat Reports",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 317495,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/NoChatReports-FABRIC-1.20.4-v2.6.1.jar",
-            "MD5": "96fef22842632ff1e758754ef74f8389"
-          }
-        },
-        {
-          "id": "generated.fabricmod:nvidium:0.2.6-beta@jar",
-          "name": "Nvidium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 164283,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/optionalon/nvidium-0.2.6-beta.jar",
-            "MD5": "6b5c5cac72b63ff8b2505a1691955f16"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.fabricmod:puzzle:1.6.1+1.20.4@jar",
-          "name": "Puzzle",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 128303,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/puzzle-1.6.1+1.20.4.jar",
-            "MD5": "79efed9b1ffbae3869a0b91afaca6e15"
-          }
-        },
-        {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.4-build.116@jar",
-          "name": "Sodium Extra",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 385665,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/sodium-extra-0.5.4+mc1.20.4-build.116.jar",
-            "MD5": "a414a1b266c8e6bd22b37c72413000ff"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 949085,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
-            "MD5": "d7753a50ca37f50abb10465a9a425dac"
-          }
-        },
-        {
-          "id": "me.lucko:spark:1.10.58@jar",
-          "name": "Spark",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3066467,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/spark-1.10.58-fabric.jar",
-            "MD5": "84d7acb6a2254e3004b3fcbb1e7e3fbe"
-          }
-        },
-        {
-          "id": "generated.fabricmod:starlight:1.1.3+fabric.f5dcd1a@jar",
-          "name": "Starlight",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 126410,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/required/starlight-1.1.3+fabric.f5dcd1a.jar",
-            "MD5": "e4b2c577ba4501b8cc29c7217eeaf108"
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.4-2.5.14@jar",
-          "name": "Simple Voice Chat",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 8125442,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/fabricmods/optionalon/voicechat-fabric-1.20.4-2.5.14.jar",
-            "MD5": "d440da1b58a6ab70e1bc363b67d0657b"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "mojangstudios.png",
-          "name": "mojangstudios.png",
-          "type": "File",
-          "artifact": {
-            "size": 72357,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/.puzzle_cache/mojangstudios.png",
-            "MD5": "5029cf9e2016a7c58ad38cccdd020c6a",
-            "path": "config/.puzzle_cache/mojangstudios.png"
-          }
-        },
-        {
-          "id": "continuity.json",
-          "name": "continuity.json",
-          "type": "File",
-          "artifact": {
-            "size": 122,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/continuity.json",
-            "MD5": "16114edbb9460c49373bb12561ddf7c3",
-            "path": "config/continuity.json"
-          }
-        },
-        {
-          "id": "cpm.json",
-          "name": "cpm.json",
-          "type": "File",
-          "artifact": {
-            "size": 466,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/cpm.json",
-            "MD5": "b09133891ebb8baf92f40293dcc73280",
-            "path": "config/cpm.json"
-          }
-        },
-        {
-          "id": "crowdin.txt",
-          "name": "crowdin.txt",
-          "type": "File",
-          "artifact": {
-            "size": 69,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/crowdin.txt",
-            "path": "config/crowdin.txt"
-          }
-        },
-        {
-          "id": "dynamic_fps.json",
-          "name": "dynamic_fps.json",
-          "type": "File",
-          "artifact": {
-            "size": 622,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/dynamic_fps.json",
-            "MD5": "0096718b38130e7e01eb3b1c8c5428c5",
-            "path": "config/dynamic_fps.json"
-          }
-        },
-        {
-          "id": "entityculling.json",
-          "name": "entityculling.json",
-          "type": "File",
-          "artifact": {
-            "size": 871,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/entityculling.json",
-            "MD5": "1e9496e07565504b4be879fde4cb01bd",
-            "path": "config/entityculling.json"
-          }
-        },
-        {
-          "id": "entity_model_features.json",
-          "name": "entity_model_features.json",
-          "type": "File",
-          "artifact": {
-            "size": 404,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/entity_model_features.json",
-            "MD5": "da7b7a5f7283a11d6b9d4431d2dccff9",
-            "path": "config/entity_model_features.json"
-          }
-        },
-        {
-          "id": "entity_texture_features.json",
-          "name": "entity_texture_features.json",
-          "type": "File",
-          "artifact": {
-            "size": 1091,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/entity_texture_features.json",
-            "MD5": "d254f69b65a0e369e2979ce160796d76",
-            "path": "config/entity_texture_features.json"
-          }
-        },
-        {
-          "id": "indigo-renderer.properties",
-          "name": "indigo-renderer.properties",
-          "type": "File",
-          "artifact": {
-            "size": 290,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/fabric/indigo-renderer.properties",
-            "MD5": "940ba801359601d42cb1db8ae774c4d7",
-            "path": "config/fabric/indigo-renderer.properties"
-          }
-        },
-        {
-          "id": "ferritecore.mixin.properties",
-          "name": "ferritecore.mixin.properties",
-          "type": "File",
-          "artifact": {
-            "size": 1525,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/ferritecore.mixin.properties",
-            "MD5": "bf3e6be63e300b0290cfc849beb64ede",
-            "path": "config/ferritecore.mixin.properties"
-          }
-        },
-        {
-          "id": "hdskins.json",
-          "name": "hdskins.json",
-          "type": "File",
-          "artifact": {
-            "size": 396,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/hdskins.json",
-            "MD5": "6b5eb7a3ca51f865b7b51cd21f475928",
-            "path": "config/hdskins.json"
-          }
-        },
-        {
-          "id": "indium-renderer.properties",
-          "name": "indium-renderer.properties",
-          "type": "File",
-          "artifact": {
-            "size": 115,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/indium-renderer.properties",
-            "MD5": "9aed33e01e228952eb45803e8e33f706",
-            "path": "config/indium-renderer.properties"
-          }
-        },
-        {
-          "id": "iris.properties",
-          "name": "iris.properties",
-          "type": "File",
-          "artifact": {
-            "size": 264,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/iris.properties",
-            "MD5": "a6e9b4f47793df5356135da9be92d036",
-            "path": "config/iris.properties"
-          }
-        },
-        {
-          "id": "lambdynlights.toml",
-          "name": "lambdynlights.toml",
-          "type": "File",
-          "artifact": {
-            "size": 2486,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/lambdynlights.toml",
-            "path": "config/lambdynlights.toml"
-          }
-        },
-        {
-          "id": "lithium.properties",
-          "name": "lithium.properties",
-          "type": "File",
-          "artifact": {
-            "size": 430,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/lithium.properties",
-            "MD5": "422e0797eef9c35fe7d8ecea0ac3f567",
-            "path": "config/lithium.properties"
-          }
-        },
-        {
-          "id": "malilib.json",
-          "name": "malilib.json",
-          "type": "File",
-          "artifact": {
-            "size": 149,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/malilib.json",
-            "MD5": "d8d1ab2efbaf17749531cb75dc7ad330",
-            "path": "config/malilib.json"
-          }
-        },
-        {
-          "id": "midnightlib.json",
-          "name": "midnightlib.json",
-          "type": "File",
-          "artifact": {
-            "size": 34,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/midnightlib.json",
-            "MD5": "96bc8c4809d1b71f3fb24d7b83aaa56e",
-            "path": "config/midnightlib.json"
-          }
-        },
-        {
-          "id": "modmenu.json",
-          "name": "modmenu.json",
-          "type": "File",
-          "artifact": {
-            "size": 814,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/modmenu.json",
-            "MD5": "e8f3869015601ad3afae3fa4412c307c",
-            "path": "config/modmenu.json"
-          }
-        },
-        {
-          "id": "moreculling.toml",
-          "name": "moreculling.toml",
-          "type": "File",
-          "artifact": {
-            "size": 555,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/moreculling.toml",
-            "path": "config/moreculling.toml"
-          }
-        },
-        {
-          "id": "puzzle.json",
-          "name": "puzzle.json",
-          "type": "File",
-          "artifact": {
-            "size": 394,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/puzzle.json",
-            "MD5": "c717bdac79916b6966cbbe15f679e38e",
-            "path": "config/puzzle.json"
-          }
-        },
-        {
-          "id": "sodium-extra-options.json",
-          "name": "sodium-extra-options.json",
-          "type": "File",
-          "artifact": {
-            "size": 1726,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/sodium-extra-options.json",
-            "MD5": "d5491ab05cd511f872d707e4b17fde1f",
-            "path": "config/sodium-extra-options.json"
-          }
-        },
-        {
-          "id": "sodium-extra.properties",
-          "name": "sodium-extra.properties",
-          "type": "File",
-          "artifact": {
-            "size": 360,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/sodium-extra.properties",
-            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
-            "path": "config/sodium-extra.properties"
-          }
-        },
-        {
-          "id": "sodium-fingerprint.json",
-          "name": "sodium-fingerprint.json",
-          "type": "File",
-          "artifact": {
-            "size": 427,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/sodium-fingerprint.json",
-            "MD5": "a5f32a85992a6d5cba1bb497b5d4b496",
-            "path": "config/sodium-fingerprint.json"
-          }
-        },
-        {
-          "id": "sodium-mixins.properties",
-          "name": "sodium-mixins.properties",
-          "type": "File",
-          "artifact": {
-            "size": 265,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/sodium-mixins.properties",
-            "MD5": "456d99888369486f42d6ea7f70294170",
-            "path": "config/sodium-mixins.properties"
-          }
-        },
-        {
-          "id": "sodium-options.json",
-          "name": "sodium-options.json",
-          "type": "File",
-          "artifact": {
-            "size": 630,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/sodium-options.json",
-            "MD5": "0b915420e4602995c86982c899ed41cf",
-            "path": "config/sodium-options.json"
-          }
-        },
-        {
-          "id": "config.json",
-          "name": "config.json",
-          "type": "File",
-          "artifact": {
-            "size": 117,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/spark/config.json",
-            "MD5": "fd707ecbb3f9675d81535e88b7712d0b",
-            "path": "config/spark/config.json"
-          }
-        },
-        {
-          "id": "updateme.json",
-          "name": "updateme.json",
-          "type": "File",
-          "artifact": {
-            "size": 128,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/updateme.json",
-            "MD5": "cb895f289528be932b76cb536600e11b",
-            "path": "config/updateme.json"
-          }
-        },
-        {
-          "id": "translations.properties",
-          "name": "translations.properties",
-          "type": "File",
-          "artifact": {
-            "size": 1133,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/voicechat/translations.properties",
-            "MD5": "3847ec6998814d22e66360d37201fcc9",
-            "path": "config/voicechat/translations.properties"
-          }
-        },
-        {
-          "id": "username-cache.json",
-          "name": "username-cache.json",
-          "type": "File",
-          "artifact": {
-            "size": 1620,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/voicechat/username-cache.json",
-            "MD5": "b6fe6950be7d66197630f38e15a0fc0e",
-            "path": "config/voicechat/username-cache.json"
-          }
-        },
-        {
-          "id": "voicechat-client.properties",
-          "name": "voicechat-client.properties",
-          "type": "File",
-          "artifact": {
-            "size": 3910,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/voicechat/voicechat-client.properties",
-            "MD5": "4d2db9bd6da56e0f200c15e33c3f21c9",
-            "path": "config/voicechat/voicechat-client.properties"
-          }
-        },
-        {
-          "id": "voicechat-server.properties",
-          "name": "voicechat-server.properties",
-          "type": "File",
-          "artifact": {
-            "size": 1861,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/voicechat/voicechat-server.properties",
-            "MD5": "e3a5eb4fd456f0b2d6eb5d68853ae9c5",
-            "path": "config/voicechat/voicechat-server.properties"
-          }
-        },
-        {
-          "id": "voicechat-volumes.properties",
-          "name": "voicechat-volumes.properties",
-          "type": "File",
-          "artifact": {
-            "size": 93,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/voicechat/voicechat-volumes.properties",
-            "MD5": "74c71bf2f994415bc414447288cf8a4f",
-            "path": "config/voicechat/voicechat-volumes.properties"
-          }
-        },
-        {
-          "id": "worldeditcui.config.json",
-          "name": "worldeditcui.config.json",
-          "type": "File",
-          "artifact": {
-            "size": 576,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/config/worldeditcui.config.json",
-            "MD5": "c6bd364a6d658459a7c49f37342476bd",
-            "path": "config/worldeditcui.config.json"
-          }
-        },
-        {
-          "id": "CustomSkinLoader.json",
-          "name": "CustomSkinLoader.json",
-          "type": "File",
-          "artifact": {
-            "size": 761,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/CustomSkinLoader/CustomSkinLoader.json",
-            "MD5": "daed4424138525087d1c4fce2b7f153d",
-            "path": "CustomSkinLoader/CustomSkinLoader.json"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 5337,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/options.txt",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "DeadlyDisasters.zip",
-          "name": "DeadlyDisasters.zip",
-          "type": "File",
-          "artifact": {
-            "size": 47659,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/DeadlyDisasters.zip",
-            "MD5": "ce8494ebd86e35352cb4d1ac4ddc08d5",
-            "path": "resourcepacks/DeadlyDisasters.zip"
-          }
-        },
-        {
-          "id": "FreshAnimations.zip",
-          "name": "FreshAnimations.zip",
-          "type": "File",
-          "artifact": {
-            "size": 453816,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/FreshAnimations.zip",
-            "MD5": "d30ff28ed2f103d6af9cb58cc6d7e261",
-            "path": "resourcepacks/FreshAnimations.zip"
-          }
-        },
-        {
-          "id": "ItemsAdder.zip",
-          "name": "ItemsAdder.zip",
-          "type": "File",
-          "artifact": {
-            "size": 2529486,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/ItemsAdder.zip",
-            "MD5": "6c761d60365b0332515b8afdd4f8a616",
-            "path": "resourcepacks/ItemsAdder.zip"
-          }
-        },
-        {
-          "id": "Lurkarya.zip",
-          "name": "Lurkarya.zip",
-          "type": "File",
-          "artifact": {
-            "size": 9323886,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/Lurkarya.zip",
-            "MD5": "de090ac3c11e83cc0183e250940a695a",
-            "path": "resourcepacks/Lurkarya.zip"
-          }
-        },
-        {
-          "id": "Magic.zip",
-          "name": "Magic.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3412030,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/Magic.zip",
-            "MD5": "2cd2693edaa8ab4ebf74638e5137e457",
-            "path": "resourcepacks/Magic.zip"
-          }
-        },
-        {
-          "id": "Space.zip",
-          "name": "Space.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1315271,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/Space.zip",
-            "MD5": "65f3989388d7774fdd0dca1aae6687c3",
-            "path": "resourcepacks/Space.zip"
-          }
-        },
-        {
-          "id": "Sparkles.zip",
-          "name": "Sparkles.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1672393,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/Sparkles.zip",
-            "MD5": "fe3a60489c27529a2b600c816b724dc4",
-            "path": "resourcepacks/Sparkles.zip"
-          }
-        },
-        {
-          "id": "UltimateFood.zip",
-          "name": "UltimateFood.zip",
-          "type": "File",
-          "artifact": {
-            "size": 549987,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/resourcepacks/UltimateFood.zip",
-            "MD5": "5d03c2edc13ba26ac858ab433bf446cc",
-            "path": "resourcepacks/UltimateFood.zip"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 3607,
-            "url": "https://resources.lsmp.site/servers/LurkaryaLEGACY-1.20.4/files/servers.dat",
-            "MD5": "7dc5b69a2bcb43789318ecacd435226c",
-            "path": "servers.dat"
-          }
-        }
-      ]
-    },
-    {
       "id": "LurkaryaSMP-1.20.6",
-      "name": "LurkaryaSMP (Minecraft 1.20.6)",
+      "name": "LurkaryaSMP",
       "description": "Embarcate en un mundo de aventuras mientras descubres los secretos detrás de este lugar!",
-      "icon": "https://resources.lsmp.site/server-icon.png",
-      "version": "1.4.5",
+      "icon": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/server-icon.png",
+      "version": "1.5.0",
       "address": "jugar.lsmp.site:25565",
       "minecraftVersion": "1.20.6",
       "discord": {
@@ -1987,13 +1131,13 @@
           }
         },
         {
-          "id": "com.tom:cpm:0.6.16e@jar",
+          "id": "com.tom:cpm:0.6.17a@jar",
           "name": "Customizable Player Models",
           "type": "FabricMod",
           "artifact": {
-            "size": 2603929,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/CustomPlayerModels-Fabric-1.20.5-0.6.16e.jar",
-            "MD5": "3256e305fbf87747a7caf6cb625d09d8"
+            "size": 2622280,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/CustomPlayerModels-Fabric-1.20.6-0.6.17a.jar",
+            "MD5": "25f64bfc0da1913a4eefe3c3d10e1b16"
           },
           "required": {
             "value": false
@@ -2033,33 +1177,33 @@
           }
         },
         {
-          "id": "traben.entity_texture_features:entity_texture_features:6.0.1@jar",
+          "id": "traben.entity_texture_features:entity_texture_features:6.1.1@jar",
           "name": "Entity Texture Features",
           "type": "FabricMod",
           "artifact": {
-            "size": 535477,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/entity_texture_features_fabric_1.20.5-6.0.1.jar",
-            "MD5": "db8018e19456ea25cc0ef571fa22d146"
+            "size": 601359,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/entity_texture_features_fabric_1.20.6-6.1.1.jar",
+            "MD5": "7bf2701143186de87dc5dfa4ecab5a5e"
           }
         },
         {
-          "id": "dev.tr7zw:entityculling:1.6.4@jar",
+          "id": "dev.tr7zw:entityculling:1.6.6@jar",
           "name": "EntityCulling",
           "type": "FabricMod",
           "artifact": {
-            "size": 63693,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/entityculling-fabric-1.6.4-mc1.20.6.jar",
-            "MD5": "2ad489f38fe255dcb9cc788d339fdc18"
+            "size": 65381,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/entityculling-fabric-1.6.6-mc1.20.6.jar",
+            "MD5": "715dcb7d192a50f83916a859d31894e7"
           }
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.97.8+1.20.6@jar",
+          "id": "generated.fabricmod:fabric-api:0.100.0+1.20.6@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2202137,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/fabric-api-0.97.8+1.20.6.jar",
-            "MD5": "a7d78c0329fd085d57e3a4d033387a1d"
+            "size": 2233495,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/fabric-api-0.100.0+1.20.6.jar",
+            "MD5": "b946410d0073117a2c47910e20b014fc"
           }
         },
         {
@@ -2076,60 +1220,53 @@
           }
         },
         {
-          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
+          "id": "link.infra:indium:1.0.32+mc1.20.1@jar",
           "name": "Indium",
           "type": "FabricMod",
           "artifact": {
-            "size": 104805,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
-            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
+            "size": 105361,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/indium-1.0.32+mc1.20.1.jar",
+            "MD5": "100082a8527efcac4f0f58ab75c6977c"
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.7.0+mc1.20.6@jar",
+          "id": "generated.fabricmod:iris:1.7.1+mc1.20.6@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2698708,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/iris-1.7.0+mc1.20.6.jar",
-            "MD5": "3c550fff0aae1331134287230355a0dc"
+            "size": 2694628,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/iris-1.7.1+mc1.20.6.jar",
+            "MD5": "0f7a39e0fe3de8e4ba71dec935221560"
           }
         },
         {
-          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.4@jar",
+          "id": "dev.lambdaurora:lambdynlights:2.3.4+1.20.6-local@jar",
           "name": "LambDynamicLights",
           "type": "FabricMod",
           "artifact": {
-            "size": 568669,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionaloff/lambdynamiclights-2.3.4+1.20.4.jar",
-            "MD5": "3c849e6337ff7c850762c6cc27f607ab"
-          },
-          "required": {
-            "value": false,
-            "def": false
+            "size": 569449,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/lambdynamiclights-2.3.4+1.20.6-local.jar",
+            "MD5": "735bdcf05cb44d94945e552e5f99a0a3"
           }
         },
         {
-          "id": "me.jellysquid.mods:lithium:0.12.3@jar",
+          "id": "me.jellysquid.mods:lithium:0.12.4@jar",
           "name": "Lithium",
           "type": "FabricMod",
           "artifact": {
-            "size": 684119,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/lithium-fabric-mc1.20.6-0.12.3.jar",
-            "MD5": "396668582f2219fa2f08419f5d4f1165"
+            "size": 684287,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/lithium-fabric-mc1.20.6-0.12.4.jar",
+            "MD5": "3967997cb7d3604448710a8fea2ec846"
           }
         },
         {
-          "id": "fi.dy.masa:malilib:0.18.999-sakura.1@jar",
+          "id": "fi.dy.masa:malilib:0.19.0@jar",
           "name": "MaLiLib",
           "type": "FabricMod",
           "artifact": {
-            "size": 786948,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/malilib.jar",
-            "MD5": "0b9d498758d728dc02f7ae6bc0f6f50e"
-          },
-          "required": {
-            "value": false
+            "size": 763495,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/malilib-fabric-1.20.6-0.19.0.jar",
+            "MD5": "02e9913c61a5c0b554dcfb7cad757c0a"
           }
         },
         {
@@ -2143,13 +1280,13 @@
           }
         },
         {
-          "id": "eu.midnightdust.fabric.core:midnightlib:1.5.3@jar",
+          "id": "eu.midnightdust.fabric.core:midnightlib:1.5.5@jar",
           "name": "MidnightLib",
           "type": "FabricMod",
           "artifact": {
-            "size": 51262,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/midnightlib-fabric-1.5.3.jar",
-            "MD5": "f6c56de96be04274ea52ad42f117821b"
+            "size": 56421,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/midnightlib-fabric-1.5.5.jar",
+            "MD5": "ea32d29b7cf8127b120a3f7e96ac6b00"
           }
         },
         {
@@ -2183,46 +1320,46 @@
           }
         },
         {
-          "id": "generated.fabricmod:nvidium:0.2.6-beta@jar",
+          "id": "generated.fabricmod:nvidium:0.2.7-beta@jar",
           "name": "Nvidium",
           "type": "FabricMod",
           "artifact": {
-            "size": 156775,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/nvidium-0.2.6-beta.jar",
-            "MD5": "a481f729d96d9487a236658286037c09"
+            "size": 156956,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/nvidium-0.2.7-beta.jar",
+            "MD5": "ff322a0016eb7801b6af10bec2f783ad"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "generated.fabricmod:puzzle:1.6.1+1.20.4@jar",
+          "id": "generated.fabricmod:puzzle:1.6.2+1.20.6@jar",
           "name": "Puzzle",
           "type": "FabricMod",
           "artifact": {
-            "size": 128303,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/puzzle-1.6.1+1.20.4.jar",
-            "MD5": "79efed9b1ffbae3869a0b91afaca6e15"
+            "size": 142126,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/puzzle-1.6.2+1.20.6.jar",
+            "MD5": "8d2707e96eca70d209ffc319e9c7edad"
           }
         },
         {
-          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.5+mc1.20.6-build.118@jar",
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.6+mc1.20.6@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
           "artifact": {
-            "size": 374163,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/sodium-extra-0.5.5+mc1.20.6-build.118.jar",
-            "MD5": "1d0af7ea70c54e0dd4105045b86423ae"
+            "size": 375407,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/sodium-extra-0.5.6+mc1.20.6.jar",
+            "MD5": "3b89d1f8aa90d15a5006cdfdf9f4f61b"
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.6@jar",
+          "id": "me.jellysquid.mods:sodium:0.5.9+mc1.20.6@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 964688,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/sodium-fabric-0.5.8+mc1.20.6.jar",
-            "MD5": "71f1650662a552f4e26d2fa79408d6b1"
+            "size": 988047,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/required/sodium-fabric-0.5.9+mc1.20.6.jar",
+            "MD5": "ef81276b7d8ed25f031dffa3cb572892"
           }
         },
         {
@@ -2236,13 +1373,26 @@
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.20.6-2.5.13@jar",
+          "id": "dev.lambdaurora.spruceui.hud:spruceui:${version}@jar",
+          "name": "SpruceUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 108421,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/spruceui-5.0.3+1.20.5-sources.jar",
+            "MD5": "7b70fedd782dc3789eb51a2ee79531e1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.6-2.5.16@jar",
           "name": "Simple Voice Chat",
           "type": "FabricMod",
           "artifact": {
-            "size": 6548416,
-            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/voicechat-fabric-1.20.6-2.5.13.jar",
-            "MD5": "6918034bf978c394c62b6782d47e9f5c"
+            "size": 6550209,
+            "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/voicechat-fabric-1.20.6-2.5.16.jar",
+            "MD5": "2088fd08b33f944235eb7c6441190dcc"
           },
           "required": {
             "value": false
