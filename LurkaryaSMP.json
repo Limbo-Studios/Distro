@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.5.1",
   "rss": "https://news.lsmp.site/category/noticias/feed/",
   "discord": {
     "clientId": "1231317013423722530",
@@ -994,7 +994,7 @@
       "name": "LurkaryaSMP",
       "description": "Embarcate en un mundo de aventuras mientras descubres los secretos detrás de este lugar!",
       "icon": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/server-icon.png",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "address": "jugar.lsmp.site:25565",
       "minecraftVersion": "1.20.6",
       "discord": {
@@ -1326,7 +1326,7 @@
           "artifact": {
             "size": 156956,
             "url": "https://resources.lsmp.site/servers/LurkaryaSMP-1.20.6/fabricmods/optionalon/nvidium-0.2.7-beta.jar",
-            "MD5": "ff322a0016eb7801b6af10bec2f783ad"
+            "MD5": "f9126673774b5ced2bcbff82062146db"
           },
           "required": {
             "value": false
